@@ -16,15 +16,11 @@ This app reads data from two xlsx files, processes the data, and saves the resul
   venv\Scripts\activate
   ```
 
-- On macOS and Linux:
-  ```
-  source venv/bin/activate
-  ```
 
 4. Install the required libraries using the `requirements.txt` file:
-  '''
+  ```
 pip install -r requirements.txt
-  '''
+  ```
 ## Configuration
 
 1. Edit the `paths.xlsx` file to include the full path of the calculator xlsx file and the final path where you want the PDF files to be written to.
